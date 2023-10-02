@@ -80,7 +80,7 @@ type = { fg = "#2ac3de" }
 "ui.text.focus" = { bg = "#2e3c64" }
 "ui.text.inactive" = { fg = "#565f89", modifiers = ["italic"] }
 "ui.text.info" = { bg = "#1f2335", fg = "#c0caf5" }
-"ui.virtual.indent-guide" = { fg = "#565f89", modifiers = ["italic"] }
+"ui.virtual.indent-guide" = { fg = "#3b4261" }
 "ui.virtual.inlay-hint" = { bg = "#233745", fg = "#1abc9c" }
 "ui.window" = { fg = "#1d202f", modifiers = ["bold"] }
 variable = { fg = "#c0caf5" }
