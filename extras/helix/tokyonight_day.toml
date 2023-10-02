@@ -47,7 +47,7 @@ label = { fg = "#2e7de9" }
 "markup.link.url" = { underline = { style = "line" } }
 "markup.list" = { fg = "#b15c00", modifiers = ["bold"] }
 "markup.normal.completion" = { fg = "#848cb5" }
-"markup.normal.hover" = { fg = "#6172b0" }
+"markup.normal.hover" = 
 "markup.raw" = { fg = "#118c74" }
 "markup.raw.block" = { fg = "#118c74" }
 "markup.raw.inline" = { bg = "#a1a6c5", fg = "#2e7de9" }
@@ -80,6 +80,7 @@ type = { fg = "#188092" }
 "ui.text.focus" = { bg = "#b6bfe2" }
 "ui.text.inactive" = { fg = "#848cb5", modifiers = ["italic"] }
 "ui.text.info" = { bg = "#e9e9ec", fg = "#3760bf" }
+"ui.virtual.indent-guide" = { fg = "#848cb5", modifiers = ["italic"] }
 "ui.virtual.inlay-hint" = { bg = "#acd7eb", fg = "#118c74" }
 "ui.window" = { fg = "#e9e9ed", modifiers = ["bold"] }
 variable = { fg = "#3760bf" }

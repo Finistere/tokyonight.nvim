@@ -222,7 +222,7 @@ function M.generate(colors)
       virtual = {
         ruler = nil,
         whitespace = nil,
-        ["indent-guide"] = nil,
+        ["indent-guide"] = "Comment",
         ["inlay-hint"] = {
           "DiagnosticVirtualTextHint",
           parameter = nil,
