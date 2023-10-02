@@ -47,7 +47,7 @@ label = { fg = "#82aaff" }
 "markup.link.url" = { underline = { style = "line" } }
 "markup.list" = { fg = "#ff966c", modifiers = ["bold"] }
 "markup.normal.completion" = { fg = "#636da6" }
-"markup.normal.hover" = 
+"markup.normal.hover" = { fg = "fg_dark" }
 "markup.raw" = { fg = "#4fd6be" }
 "markup.raw.block" = { fg = "#4fd6be" }
 "markup.raw.inline" = { bg = "#444a73", fg = "#82aaff" }

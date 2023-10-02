@@ -147,7 +147,11 @@ function M.generate(colors)
       normal = {
         nil,
         completion = "CmpItemMenu",
-        hover = "CmpItemKindDefault"
+        hover = {
+          "helix",
+          -- CmpItemKindDefault
+          fg = "fg_dark"
+        }
       },
     },
     diff = {
