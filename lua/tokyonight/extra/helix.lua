@@ -169,7 +169,10 @@ function M.generate(colors)
         separator = nil
       },
       cursor = {
-        "Cursor",
+        -- Until it's solved, the best is reversed...
+        -- https://github.com/helix-editor/helix/issues/5675
+        -- "Cursor",
+        { "helix", modifiers = { "reversed" } },
         normal = nil,
         insert = nil,
         select = nil,
