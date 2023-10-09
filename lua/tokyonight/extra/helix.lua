@@ -231,11 +231,7 @@ function M.generate(colors)
         ruler = nil,
         whitespace = nil,
         ["indent-guide"] = "IblIndent",
-        ["inlay-hint"] = {
-          "DiagnosticVirtualTextHint",
-          parameter = nil,
-          type = nil,
-        },
+        ["inlay-hint"] = "LspInlayHint",
         wrap = nil
       },
       menu = {
