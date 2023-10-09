@@ -239,8 +239,8 @@ function M.generate(colors)
         selected = "PmenuSel",
         scroll = {
           'helix',
-          fg = vim.api.nvim_get_hl(0, { name = "PmenuThumb" }).bg,
-          bg = vim.api.nvim_get_hl(0, { name = "PmenuSbar" }).bg,
+          fg = string.format("#%06x", vim.api.nvim_get_hl(0, { name = "PmenuThumb" }).bg),
+          bg = string.format("#%06x", vim.api.nvim_get_hl(0, { name = "PmenuSbar" }).bg),
         }
       },
       selection = {
